@@ -1,14 +1,14 @@
 [
   {
-    "modid": "examplemod",
-    "name": "ExampleMod",
-    "description": "Example mixined scala mod!",
+    "modid": "elephantfix",
+    "name": "Elephant Fix",
+    "description": "Fix weird rendering issue related to potion effect",
     "version": "${version}",
     "mcversion": "${mcversion}",
     "url": "",
     "updateUrl": "",
     "authorList": [
-      "Author"
+      "Tapio"
     ],
     "credits": "",
     "logoFile": "",
