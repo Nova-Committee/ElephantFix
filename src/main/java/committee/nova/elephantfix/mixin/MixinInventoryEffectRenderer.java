@@ -16,7 +16,7 @@ public abstract class MixinInventoryEffectRenderer extends GuiContainer {
         super(container);
     }
 
-    @Inject(method = "func_147044_g", at = @At(value = "HEAD"))
+    @Inject(method = "func_147044_g", at = @At("HEAD"))
     public void inject$drawActivePotionEffects$1(CallbackInfo ci) {
         GL11.glPushMatrix();
         GL11.glEnable(GL11.GL_BLEND);
